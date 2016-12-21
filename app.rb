@@ -1,6 +1,6 @@
 require 'sinatra'
-require 'sinatra/reloader'
-require './lib/caeser_cypher.rb'
+require 'sinatra/reloader' if development?
+require './lib/caesar_cipher.rb'
 
 get '/' do
   params[:input_string] ? string = params[:input_string] : string = "Encrypted Message"
