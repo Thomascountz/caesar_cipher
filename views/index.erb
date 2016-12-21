@@ -1,25 +1,33 @@
-<!DOCTYPE text/html>
+<!DOCTYPE html>
+
 <head>
-  <title>Caeser's Cypher</title>
+  <title>Caesar's Cipher</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Trirong" rel="stylesheet">
 </head>
+
 <body>
-  <h1>Caeser's Cypher</h1>
-  <form>
-    <input type='text' name='input_string' />
-    <select name='shift_value'>
-      <option value="1">1</option>
-      <option value="2">2</option>
-      <option value="3">3</option>
-      <option value="4">4</option>
-      <option value="5">5</option>
-      <option value="6">6</option>
-      <option value="7">7</option>
-      <option value="8">8</option>
-      <option value="9">9</option>
-    </select>
-    <input type='submit' value='Encrypt!' />
-  </form> 
-  <p>
-    <%= message %>
-  </p>
+  <div class="box">
+    <h1>Caesar's Cipher</h1>
+    <form>
+      <div id=text-bar>
+        <input type='text' name='input_string' size="55" />
+      </div>
+      <select name='shift_value'>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+      </select>
+      <input type='submit' value='Encrypt!' />
+    </form> 
+    <div id="message">
+      <%= message %>
+    </div>
+  </div>
 </body>
