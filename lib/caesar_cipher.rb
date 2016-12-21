@@ -8,7 +8,7 @@ def c_cypher(args = {})
 
   string = string.split('').map! do |character|
     if character =~ /[a-zA-z]/
-      
+
       if character =~ /[a-z]/ && character.ord + index > SMALL_Z
         ((character.ord + index) - CHRS_IN_ALPHABET).chr
       elsif character =~ /[A-Z]/ && character.ord + index > BIG_Z
@@ -16,11 +16,11 @@ def c_cypher(args = {})
       else
         (character.ord + index).chr
       end
-      
+
     else
       character
     end
   end
-  
+
   string.join
 end

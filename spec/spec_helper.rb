@@ -1,1 +1,1 @@
-require './lib/caeser_cypher.rb'
+require './lib/caesar_cipher.rb'
