@@ -28,7 +28,7 @@ Lastly, it's been a while since I've used html, css, and javascript, so I gotta 
 
 ## What did I learn?
 
-In the Ruby script, I made sure to use an `args` hash for passing in parameters, that way some burden is taken off of the caller as the app keeps on growing, and I had fun using `CONSTANTS` to get rid of the magic numbers I had floating so other developers can help me more easily. Finally, and funnily enough, using the `Array#map` function was a revalation for me, saving me a few lines of extra code and a more conscise 
+In the Ruby script, I made sure to use an `args` hash for passing in parameters, that way some burden is taken off of the caller as the app keeps on growing, and I had fun using `CONSTANTS` to get rid of the magic numbers I had floating so other developers can help me more easily. Finally, and funnily enough, using the `Array#map` function was a revelation for me, saving me a few lines of extra code and giving me a more conscise method.
 
 In the testing, I saved myself from having to constantly write tests in the commandline. Even after falling in love with the `pry` gem and using `bindings` nothing beats the pleasure of TDD. Hell, I'm still enjoying going back and refactoring, knowing the code is safe.
 
