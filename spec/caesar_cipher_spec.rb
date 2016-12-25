@@ -33,4 +33,8 @@ describe '#c_cypher' do
   it 'translates multiple words' do
     expect(c_cypher(string: 'hello world', index: 1)).to eq('ifmmp xpsme')
   end
+  
+  it 'unencrypts with a negative shift' do
+    expect(c_cypher(string: "edcbfghi", index: -5)).to eq('zyxwabcd')
+  end
 end
