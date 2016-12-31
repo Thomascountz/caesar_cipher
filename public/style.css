@@ -8,26 +8,3 @@ body {
   font-family: 'Trirong', serif;
   color: #3D3D3D; 
 }
-
-#message {
-  background-color: #efefef;
-  display: block; 
-  padding: 12% 0; 
-  max-width: 100%; 
-  margin-top: 20%; 
-  font-size: 20px;
-}
-
-#text-bar input {
-  display: block;
-  margin: 0 auto;
-  border: 2px solid grey;
-  font-size: 18px;
-  height: 25px;
-  width: 496px;
-}
-
-form select {
-  width: 30px;
-  height: 25px;
-}

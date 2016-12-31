@@ -7,17 +7,14 @@
 </head>
 
 <body>
-  <div class="box">
+  <div>
     <h1>Caesar's Cipher</h1>
-    <form>
-      <div id=text-bar>
-        <input type='text' name='input_string' size="55" />
-      </div>
-      <input type= 'text' name='shift_value' size = "5" />
-      <input type='submit' value='Encrypt!' />
-    </form> 
-    <div id="message">
-      <%= message %>
-    </div>
+
+    <form id="encryption-form">
+      <textarea class="form-control" name="input_string" rows="5" cols="50"><%= string %></textarea><br>
+      <input class= "form-control" name="shift_value" placeholder="Key"></input>
+      <button type='submit' class="btn">Encrypt!</button><br> 
+      <textarea class="form-control" rows="5" cols="50"><%= message %></textarea>
+    </form>
   </div>
-</body>
+</div>
