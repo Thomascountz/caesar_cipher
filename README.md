@@ -14,7 +14,7 @@ The app view contains an html `<form>` containg a textarea and dropdown options.
 The previously CLI-only script uses `if-else` logic to take an input string and a shift integer, check to see if each character is a letter, if it is, it shifts it within the bounds of the 26 letters in our alphabet. The result is rendered in the `views/index.erb` file, after the `GET` request has been recieved.
 
 ## Where do we go from here?
-I'd love to utilize the conventional `POST` request, rather than only `GET`. I'm sure I've just got to be willing to get in there and work some things out. Also, why does it have to be a drop down menu? I should be able to find a way to accept and validate a integer in a text box as input.
+I'd love to utilize the conventional `POST` request, rather than only `GET`. I'm sure I've just got to be willing to get in there and work some things out.
 
 The `if-else` logic mostly works in the Ruby script, except I'd love to see the use of negative numbers produce 'unencryption' so that I get these results.
 ```
